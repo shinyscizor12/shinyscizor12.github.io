@@ -1,0 +1,78 @@
+body{
+  background-color:  #3f3f3f
+
+}
+
+img.a{
+  position: relative;
+  right: 50px;
+}
+
+
+.content{ /*centers webpage */
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+
+}
+
+.taskbar {
+  overflow: hidden;
+  background-color: #000000;
+  border: 5px solid black;
+}
+
+.taskbar a {
+  position: relative;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+img:nth-child(2) {
+  position: relative;
+  left: 100px;
+}
+
+img:nth-child(3) {
+  position: relative;
+  left: 180px;
+}
+
+.enzo{
+  float:left;
+  overflow: hidden;
+  position: relative;
+  right: 50px;
+  top: 50px;
+  border: 10px solid black;
+}
+p {
+  background-color: #a7a7a7;
+  overflow:hidden;
+  position: relative;
+  top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.b {
+  max-width: 1500px;
+  margin: auto;
+  padding: 10px;
+  position: relative;
+  top: 200px;
+  right: 400px;
+  overflow: hidden;
+
+}
+
+p.a{
+  max-width: 300px;
+  margin: auto;
+  padding: 10px;
+  position: relative;
+  right: 150px;
+}

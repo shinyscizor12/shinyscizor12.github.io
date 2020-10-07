@@ -1,0 +1,51 @@
+body{
+  background-color:  #3f3f3f
+
+
+}
+
+
+
+.content{
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+
+}
+.taskbar {
+  overflow: hidden;
+  background-color: #000000;
+  border: 5px solid black;
+}
+img.a{
+  position: relative;
+  right: 50px;
+}
+.taskbar a {
+  position: relative;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}

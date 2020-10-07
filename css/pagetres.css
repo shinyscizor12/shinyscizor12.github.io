@@ -1,0 +1,59 @@
+body{
+  background-color:  #3f3f3f
+
+
+}
+img.a{
+  position: relative;
+  right: 50px;
+}
+
+
+.content{
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+
+}
+.taskbar {
+  overflow: hidden;
+  background-color: #000000;
+  border: 5px solid black;
+}
+
+.taskbar a {
+  position: relative;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.F40{
+  float:left;
+  overflow: hidden;
+  position: relative;
+  right: 100px;
+  top: 50px;
+  border: 10px solid black;
+}
+p {
+  background-color: #a7a7a7;
+  overflow:hidden;
+  position: relative;
+  bottom: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p.a{
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  width: 300px;
+  float: right;
+  position: relative;
+  left: 200px;
+  overflow: hidden;
+}
