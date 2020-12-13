@@ -45,7 +45,7 @@ body {
   background-color: #cccccc;
 }
 .about {
-  position: absolute;
+  position: relative;
   top: 700px;
   width: 350px;
   left: 300px;
@@ -154,4 +154,22 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+.titlemaps {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  padding: 20px;
+}
+
+.maps {
+  position: absolute;
+  top: 900px;
+  right: 75px;
+  padding: 45px;
+  margin: 45px;
+  text-indent: 50px;
+  background-color: #242424;
+  color: white;
 }
