@@ -173,3 +173,30 @@ img {vertical-align: middle;}
   background-color: #242424;
   color: white;
 }
+.logo {
+  width: 100px;
+  height: 100px;
+  background-color: #0CB1C4;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */
+   /* transform: rotate(.03turn);  */
+  font-family: Arial, Helvetica, sans-serif;
+  scale: 60% 60%;
+  position: absolute;
+  top: 120px;
+
+  right: 100px;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

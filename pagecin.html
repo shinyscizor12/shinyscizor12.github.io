@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SKater XL | Skater XL</title>
+<link rel="stylesheet" href="stylesheets/pagecin.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<img src="image/title.png" alt="title" class="title"/>
+
+<div class="navbar">
+<a href="index.html" class="uptop">Home</a>
+<a href="pagesie.html">Buy Now</a>
+<a href="pagedos.html">Tricks</a>
+<a href="pagetres.html">Characters</a>
+<a href="pagequa.html">Maps</a>
+<a href="pagecin.html">Community</a>
+<a href="pagesais.html">About us</a>
+</div>
+<h1 class="titlemaps">Thriving Community</h1>
+  <h3 class="maps"> Dive into a passionate community with more than 50,000 members in Discord who create
+    online zines, video parts, fakeskate brands, and hundreds of mods. Players can become part of a bigger
+    ecosystem and join the digital skateboarding subculture where they can share their creativity! In the slide
+  check out some of the community's most impressive photos.</h3>
+
+<div class="bottompart">
+<p> © COPYRIGHT 2020 Easy Day Studios PTY.  ALL RIGHTS RESERVED.<br>
+Reverb Inc. (209) 586-1495 • 18711 Tiffeni Drive – Suite K • Twain Harte, CA 95383. </p>
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="image/ppl1.png" style="width:100%">
+  <div class="text">Lucas José</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="image/ppl2.jpg" style="width:100%">
+  <div class="text">Frankie</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="image/ppl3.jpg" style="width:100%">
+  <div class="text">Sketchy</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="image/ppl4.png" style="width:100%">
+  <div class="text">Souly</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="image/ppl5.png" style="width:100%">
+  <div class="text">dipa12458</div>
+</div>
+
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+<div class="discord">
+  <a href="https://discord.gg/9aFrjGBp">
+    <img src="image/discord.jpg" alt="discord link" >
+  </a>
+</div>
+<div class="discordinfo">
+  <h3> Check out our official Mod discord for PC.<br> Find endless amounts of mods for gear, maps,
+  <br>  and an overall better experience on the game.<br> Here you can also find a bottomless channel of content
+    <br>posted by our community!</h3>
+  </div>
+  <div class="vinniestream">
+    <img src="image/vinnie.png" alt="Vinnie's stream">
+  </div>
+
+    <h3 class="stream">And be sure you check twitch.tv for our talented <br>
+      content streamers, and show some support! Below <br>we got Vinnie Banh.
+    A professional skateborder from San Diego</h3>
+    <div class="logo"><p>Jordan Productions</p></div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+
+</html>
